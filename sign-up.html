@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign in page</title>
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+          <div class="container" id="sign-in-page">
+                  <div class="row">
+
+                          <!-- registration form image -->
+                          <div class="col-lg-offset-2 col-md-4 sign-in-image">
+                            <img src="assets/img/sign-up.jpeg" alt="">
+                          </div>
+
+                          <div class="col-md-4 sign-in-right">
+                                  <!-- registration form -->
+                                  <form action="register" method="post" id="register">
+                                          <fieldset>
+
+                                                  <!-- email -->
+                                                  <i class="material-icons md-36 sign-in-icons">email</i>
+                                                  <input type="email" name="email" id="email" class="form-control form-length1" placeholder="example@gmail.com" autofocus required>
+                                                  <br>
+
+                                                  <!-- passwords -->
+                                                  <i class="material-icons md-36 sign-in-icons">lock</i>
+                                                  <input type="password" name="password" id="password" class="form-control form-length1" placeholder="Enter Your Password" required>
+                                                  <br>
+
+                                                  <!-- confirm password -->
+                                                  <i class="material-icons md-36 sign-in-icons">lock</i>
+                                                  <input type="password" name="confirm password" id="confirmPassword" class="form-control form-length1" placeholder="Enter Your Password Again" required>
+
+                                                  <button type="submit" class="btn btn-sm btn-sign-in">Sign Up</button>
+
+                                          </fieldset>
+                                </form>
+                                <div class="sign-in-using text-center">
+                                  <p>Sign in using</p>
+                                  <div class="dis-flex">
+                                    <a rel="tooltip" title="Follow us on Twitter"  href="https://twitter.com/CreativeTim" target="_blank">
+                                      <i class="fa fa-twitter fa-2x icon-blue"></i>
+                                    </a>
+                                    <a rel="tooltip" title="Like us on Facebook"  href="https://www.facebook.com/CreativeTim" target="_blank">
+                                      <i class="fa fa-facebook-square fa-2x icon-blue"></i>
+                                    </a>
+                                    <a rel="tooltip" title="Follow us on Instagram"  href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
+                                      <i class="fa fa-instagram fa-2x icon-blue"></i>
+                                    </a>
+                                  </div>
+                                </div>
+
+                                <!-- register link and forgot password link-->
+                                <div class="register">
+                                  <div>
+                                    <a href="#">Forgot password</a>
+                                  </div>
+                                  <div class="yet_to_register">
+                                    <p>Yet to register?<a href="#">Sign up</a></p>
+                                  </div>
+                                </div>
+                          </div>
+
+
+
+                  </div>
+
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+    </div>
+    <script src="assets/js/sign-up.js" type="text/javascript">
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,268 @@
+/*general styling*/
+/*padding*/
+.p-t-0 {
+  padding-top: 0 !important;
+}
+
+.p-b-0 {
+  padding-bottom: 0 !important;
+}
+
+.p-l-0 {
+  padding-left: 0 !important;
+}
+
+.p-r-0 {
+  padding-right: 0 !important;
+}
+
+/*margin*/
+.m-t-0 {
+  margin-top: 0 !important;
+}
+
+.m-b-0 {
+  margin-bottom: 0 !important;
+}
+
+.m-l-0 {
+  margin-left: 0 !important;
+}
+
+.m-r-0 {
+  margin-right: 0 !important;
+}
+
+/*display*/
+.dis-flex {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+nav img{
+  width: 48px;
+  height: 48px;
+}
+
+.material-icons.md-48 {
+  font-size: 60px;
+}
+
+.video {
+  margin-top: 60px;
+}
+
+video {
+  width: 60%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.price_wrapper {
+  margin: 40px;
+}
+
+.price_button {
+  background-color: #43536d !important;
+  border-radius: 50px;
+}
+
+.icon-blue {
+  color: blue;
+  margin: 0 20px;
+}
+
+.contact_us {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_us_listed {
+  display: flex;
+}
+
+.contact_us_info {
+  margin-right: 10px;
+}
+
+.logo p {
+  color: white;
+  text-decoration-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 12px;
+}
+
+.get_started {
+  background: #43536d;
+  font-weight: bold;
+}
+
+.price_wrapper {
+  color: #FFF;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  /*background: url(../img/pexels-photo-220444.jpeg);*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-photo-220444.jpeg);
+  margin: 40px 0;
+}
+
+.sign-in-image img {
+  width: 100%;
+  padding: 0;
+  height: 427px;
+}
+
+.sign-in-image {
+  padding: 0;
+}
+
+.sign-in-right {
+  padding: 0;
+  height: 427px;
+}
+
+#sign-in-page {
+  background-color: white !important;
+  color: black !important;
+  margin-top: 5%;
+}
+
+.form-group label {
+  color: black !important;
+}
+
+.btn-sign-in {
+  background: #43536d;
+  margin-left: 30px;
+}
+
+#email,
+#lock {
+  margin-left: 30px;
+  width: 92%;
+}
+
+#email,
+#password {
+  margin-left: 30px;
+  width: 92%;
+}
+
+#email,
+#confirmPassword {
+  margin-left: 30px;
+  width: 92%;
+}
+
+.sign-in-icons {
+  position: absolute;
+}
+
+.sign-in-using {
+  margin-left: 30px;
+  margin-bottom: 115px;
+}
+
+.register {
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+}
+
+.register a {
+  color: blue;
+}
+
+/* template sytling page begins*/
+.template_background {
+  height: 300px;
+  background-image: url('../img/bg2.jpeg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#template {
+  width: 75%;
+  background-color: white;
+  margin-top: -150px;
+  z-index: 5;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.figure_one img {
+  width: 100%;
+  height: 200px;
+  margin-top: 15px;
+}
+
+#template_one_text {
+  padding-right: 15px;
+  margin-top: -10px;
+  padding-left: 15px;
+}
+
+.figure_one_grid {
+  padding-right: 15px;
+}
+
+@media all and (max-width: 667px) and (min-width: 100px) {
+    .template_one_text_container {
+        padding-left: 15px;
+    }
+}
+
+/*template two styling*/
+.section_templates {
+  width: 75%;
+}
+
+.template_two img {
+  width: 100%;
+  height: 300px;
+}
+
+.template_two {
+  margin-bottom: 20px;
+}
+
+.template_details {
+  width: 75%;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  padding-left: 10px;
+}
+
+#check1 {
+  position: absolute;
+  top: 0;
+  margin-left: 25px;
+  margin-top: 3px;
+}
+
+#check2 {
+  position: absolute;
+  top: 0;
+  margin-top: 31px;
+  margin-left: 25px;
+}
+
+#check3 {
+  position: absolute;
+  top: 0;
+  margin-left: 25px;
+  margin-top: 62px;
+}
+
+.template_details .row h3 {
+padding-left: 10px;
+}
